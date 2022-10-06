@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class Homework {
-    public static void main (String[] args) {
-System.out.println("Are you ready to use the calculator");
-    Scanner math = new Scanner(System.in);
+    public static void method() {
+        Scanner math = new Scanner(System.in);
     System.out.println("Put in first number:");
     double num1 = math.nextDouble();
     System.out.println("Put in the symbol");
@@ -56,11 +55,45 @@ System.out.println("Put in the the second number");
          else {
              System.out.println("None of the correct operations were chosen");
              math.close();
-
     
+          
 
          }
-    
+         
+         
 }
+
+
+public static void main(String[] args) {
+    Scanner nath = new Scanner(System.in);
+    System.out.println("If you want to use the calculator put in true for multiple occurences, put in true");
+    boolean i = nath.nextBoolean();
+    if(i=true) {
+     method();
+     method();
+     method();
+     method();
+     method();
+     method();
+     method();
+     method();
+     method();
+     method();
+     method();
+     
+     
+    }
+    else {
+        method();
+    }
+    //    for (int i = 0; i < 5; i++) {
+// method();
+// System.out.println("If you want to stop using the calculator put in zero");
+
+     }
+
+//    boolean z = math.nextB
 }
+
+
 
